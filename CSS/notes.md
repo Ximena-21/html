@@ -15,7 +15,7 @@
     <li>para mandar a llamar las etiquetas para aplicar estilos, clase (punto (.) al principio), y para id (# al principio)</li>
     <li>se necesita nombre de clases, para evitar que nos modifique todas las etiquetas, usando BEM (para nombrar las clases)</li>
     <li>BEM = es una metodologia que permite crear la arquitectura del proyecto</li>
-    <li></li>
+    <li>BEM (bloque - elemento - modificador) <a href="https://9elements.com/bem-cheat-sheet">BEM</a></li>
     <li></li>
 
 
@@ -23,7 +23,66 @@
     
 </ul>
 
+### _Pseudoclass & Pseudoelement_
+
+<ul>
+    <p>La pseudo clases (:class), define el estilo de un ESTADO especila de un elemento.</P>
+
+<p>El pseudo elemento (::element), define ell estilo de UNA PARTE especifica de un elemento</p>
+</ul>
+
+
+### _Anatomia CSS_
+
+<ol>
+    <ul> P { color: red;}
+        <li>
+            P = es el selector (pseudoelemento, pseudoclase)
+            y es decirle a que elemento quiero agregarle estilo
+        </li>
+        <li> 
+            {} = declaracion de estilo, el estilo que se le va aaplicar (color) y la propiedad (red)
+        </li>
+    </ul>
+
+
+### _Modelo de cajas_
+
+<p>Los elemento se renderizan como cajas, lo que permite agregarle ciertos estilos</p>
+<ol>
+    <li> MARGIN
+        <p>
+           Espacio externo de la caja hacia afuer
+        </p>
+    </li>
+    <li> BORDER
+        <p>
+            linea que define cada uno de los elelmentos, viene predeterminado como transparente
+        </p>
+    </li>
+    <li> PADDING
+        <p>
+            Espacio interno de la caja hacia adentro, ayuda a posicionar el contenido
+        </p>
+    </li>
+    <li> CONTENIDO
+        <p>
+            Texto, imagenes, videos
+        </p>
+        <ul>Width
+            <p>largo, tamañao del contenido o de la caja contenedora
+            </p>
+        </ul>
+        <ul>Height
+            <p>Alto, que se quiere que tenga el contenido
+            </p>
+        </ul>
+    </li>
+</ol>
+
+### __ES MUY IMPORTANTE PONER AL COMIENZO DE LA HOJA DE ESTILO (*) EL SELECTOR UNIVERSAL PARA RETIRAR LOS ELEMENTOS padding, margin, QUE YA VIENEN PREDETERMINADOS POR__
 
 ### _Herencia_
+
 
 <p>Es el codigo CSS que se le va a pasar de un padre a un hijo</p>
