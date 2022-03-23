@@ -11,6 +11,14 @@ p {
 li {
     color: black;
     font-size: 20px;
+    list-style: none;
+    /* padding: 10px; */
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rebeccapurple;
 }
 
 img {
